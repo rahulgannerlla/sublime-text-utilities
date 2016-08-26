@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+var deferred = \$q.defer();
+$1
+.then(
+	function (${2:success}) {
+		deferred.resolve(${2/\*//})
+	},
+	function (error) {
+		deferred.reject(error);
+	}
+);
+
+return deferred.promise;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>q</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
