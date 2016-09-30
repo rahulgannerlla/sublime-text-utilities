@@ -12,3 +12,5 @@ Set of utilities to be used with the awesome Sublime Text Editor!
 >Type **then** to add a angular promise chain block.
 
 >Type **init** to initialize a function prototype.
+
+>Type **directive** to add directive prototype.
