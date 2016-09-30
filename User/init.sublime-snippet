@@ -3,9 +3,9 @@
 (
     function () {
 	'use strict';
-	angular.module('.controllers')
+	angular.module('$1.controllers')
 
-	.controller('Controller', ['\$scope', '\$window', '\$log', '\$q', function (\$scope, \$window, \$log, \$q) {
+	.controller('$2Controller', ['\$scope', '\$window', '\$log', '\$q', function (\$scope, \$window, \$log, \$q) {
 			
 		}
 	]);
@@ -14,5 +14,5 @@
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>init</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js</scope>
+	<!-- <scope>source.js</scope> -->
 </snippet>
