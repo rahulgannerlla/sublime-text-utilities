@@ -10,3 +10,5 @@ Set of utilities to be used with the awesome Sublime Text Editor!
 >Type **q** to add an angular promise block.
 
 >Type **then** to add a angular promise chain block.
+
+>Type **init** to initialize a function prototype.
